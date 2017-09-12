@@ -3,3 +3,12 @@
     font-size: 18px;
     text-transform: uppercase;
 }
+
+#portfolio {
+  border-bottom: 10px solid #f46039;
+}
+
+.bg-light {
+  background-color: #f46039;
+  color: white;
+}
