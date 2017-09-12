@@ -14,7 +14,7 @@ $('#portfolioModal').on('show.bs.modal', function (event) {
   modal.find('.modal-title').text(title)
   modal.find('#portfolio-desc1').text(desc1)
   modal.find('#portfolio-desc2').text(desc2)
-  modal.find('#portfolio-url').text(url).attr("href", url)
+  modal.find('#portfolio-url').attr("href", url)
   modal.find('#modal-image').attr("src", image)
 })
 
