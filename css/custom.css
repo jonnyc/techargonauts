@@ -12,3 +12,62 @@
   background-color: #f46039;
   color: white;
 }
+
+.alert {
+  margin-top: 10px;
+}
+
+/*NAVBAR LOGO STYLING*/
+.navbar-default.affix-top .navbar-header .navbar-brand {
+  display:block;
+  width:200px;
+  height: 100%;
+  margin: 10px;
+  background-image: url('../img/helm-logo-dark.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+  display:block;
+  width:200px;
+  height: 100%;
+  margin: 10px;
+  background-image: url('../img/helm-logo-dark.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+@media (min-width:768px) {
+  .navbar-default.affix-top .navbar-header .navbar-brand {
+    display:block;
+    width:200px;
+    height: 100%;
+    margin: 10px;
+    background-image: url('../img/helm-logo-light.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .7;
+  }
+
+  .navbar-default.affix-top .navbar-header .navbar-brand:hover {
+    opacity: 1;
+  }
+
+  .navbar-default.affix .navbar-header .navbar-brand {
+    display:block;
+    width:200px;
+    height: 100%;
+    margin: 10px;
+    background-image: url('../img/helm-logo-dark.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+}
