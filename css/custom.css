@@ -7,6 +7,15 @@ h6 {
   font-family: 'Source Serif Pro', serif, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+header {
+  background-image: url('../img/galaxy-boat.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 65%;
+}
+
 .modal-title {
     font-weight: bold;
     font-size: 18px;
