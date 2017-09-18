@@ -11,7 +11,6 @@ header {
   background-image: url('../img/galaxy-boat.jpg');
   background-color: black;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: 65%;
 }
@@ -61,6 +60,11 @@ header {
 }
 
 @media (min-width:768px) {
+
+  header {
+      background-attachment: fixed;
+  }
+
   .navbar-default.affix-top .navbar-header .navbar-brand {
     display:block;
     width:200px;
