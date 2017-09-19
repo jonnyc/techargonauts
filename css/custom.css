@@ -91,12 +91,6 @@ header {
   }
 }
 
-/*@media (min-width:992px) {
-  header {
-      background-attachment: fixed;
-  }
-}*/
-
 @media only screen and (max-device-width: 1024px) {
   header {
       background-attachment: scroll;
