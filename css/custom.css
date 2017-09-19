@@ -13,7 +13,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 65%;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .modal-title {
@@ -91,8 +91,14 @@ header {
   }
 }
 
-@media (min-width:992px) {
+/*@media (min-width:992px) {
   header {
       background-attachment: fixed;
+  }
+}*/
+
+@media only screen and (max-device-width: 1024px) {
+  header {
+      background-attachment: scroll;
   }
 }
