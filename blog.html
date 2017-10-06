@@ -4,13 +4,18 @@ title: Tech Argonauts Blog
 caption: Navigating the technological frontier together.
 ---
 
-<div class="container">
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<section>
+  <div class="container">
+    <div class="col-xs-12 posts-section">
+      <ul>
+        {% for post in site.posts %}
+          <li class="post-item">
+            <a class="post-title" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <hr>
+              <p>{{ post.excerpt }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
