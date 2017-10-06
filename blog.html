@@ -1,0 +1,16 @@
+---
+layout: default
+title: Tech Argonauts Blog
+caption: Navigating the technological frontier together.
+---
+
+<div class="container">
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
