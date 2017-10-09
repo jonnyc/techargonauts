@@ -11,8 +11,9 @@ caption: Navigating the technological frontier together.
         {% for post in site.posts %}
           <li class="post-item">
             <a class="post-title" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <h4 class="post-title">{{ post.date | date_to_long_string }}</h4>
             <hr>
-              <p>{{ post.excerpt }}</p>
+              {{ post.excerpt }}
           </li>
         {% endfor %}
       </ul>

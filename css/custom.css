@@ -65,6 +65,8 @@ header {
 .post-item {
   border: 1px solid black;
   border-radius: 20px;
+  margin-bottom: 20px;
+  /*padding: 10px;*/
 }
 
 .posts-section > ul {
@@ -85,6 +87,11 @@ header {
 .post-item > p {
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
+}
+
+.post-content {
+  padding: 50px 0px;
 }
 
 @media (min-width:768px) {
