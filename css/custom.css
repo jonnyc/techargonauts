@@ -36,6 +36,11 @@ header {
   margin-top: 10px;
 }
 
+#about-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
 /*NAVBAR LOGO STYLING*/
 .navbar-default.affix-top .navbar-header .navbar-brand {
   display:block;
