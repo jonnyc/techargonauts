@@ -70,7 +70,7 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
-          {% if page.title == "Tech Argonauts" %}
+          {% if page.path == "index.html" %}
             <a class="navbar-brand page-scroll" href="#page-top"></a>
           {% else %}
             <a class="navbar-brand page-scroll" href="{{ site.url }}/index.html#page-top"></a>
@@ -80,7 +80,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          {% if page.title == "Tech Argonauts" %}
+          {% if page.path == "index.html" %}
           <li>
             <a class="page-scroll" href="#page-top">Home</a>
           </li>
@@ -127,12 +127,17 @@
   </nav>
 
   <header>
+    <!-- <script>console.log("{{page.id}}");</script> -->
     <div class="header-content">
       <div class="header-content-inner">
+        {% if page.path == "index.html" %}
+        <h1 id="homeHeading">Tech Argonauts</h1>
+        {% else %}
         <h1 id="homeHeading">{{page.title}}</h1>
+        {% endif %}
         <hr>
         <p>{{page.caption}}</p>
-        {% if page.title == "Tech Argonauts" %}
+        {% if page.path == "index.html" %}
         <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         {% endif %}
       </div>
