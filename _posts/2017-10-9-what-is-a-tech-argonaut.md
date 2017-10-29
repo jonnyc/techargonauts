@@ -2,7 +2,7 @@
 layout: posts
 title: What is a Tech Argonaut?
 caption: How did we come up with the name Tech Argonauts?
-description: Explanation of Tech Argonauts
+description: Definition of a Tech Argonaut
 categories: info
 date: 2017-10-9
 ---
