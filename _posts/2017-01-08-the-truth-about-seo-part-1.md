@@ -1,8 +1,8 @@
 ---
 layout: posts
 title: The Truth About SEO
-caption: You’re competing in a popularity contest
-description: Definition of a Tech Argonaut
+caption: Part 1 - You’re competing in a popularity contest
+description: SEO backlink information and tutorial regarding search engine ranking algorithms
 categories: info
 date: 2018-1-8
 ---

@@ -17,7 +17,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tech Argonauts is an end to end consulting firm specializing in cloud development.">
+  <meta name="description" content="{{page.description}}">
   <meta name="author" content="Tech Argonauts">
   <!-- GSuite Verification Tag -->
   <meta name="google-site-verification" content="lMas5x-Ge_mff2hjuza0D_Zs4yrNfJSqq5zDiChjFkI" />
@@ -47,9 +47,9 @@
 
   <!-- Open Graph Data for Social Media -->
   <meta property="og:image" content="{{ site.url }}/img/logo-open-graph.png"/>
-  <meta property="og:title" content="Tech Argonauts" />
-  <meta property="og:url" content="http://www.techargonauts.com" />
-  <meta property='og:description' content="Navigating The Technological Frontier Together"/>
+  <meta property="og:title" content="{% if page.path == "index.html" %}Tech Argonauts{% else %}{{page.title}}{% endif %}" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property='og:description' content="{{page.caption}}"/>
   <meta property="og:type" content="text/html" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
