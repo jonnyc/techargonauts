@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: The Truth About SEO
-caption: Part 1 - You’re competing in a popularity contest
+title: The Truth About SEO - Part 1
+caption: You’re competing in a popularity contest
 description: SEO backlink information and tutorial regarding search engine ranking algorithms
 categories: info
 date: 2018-1-8
@@ -18,7 +18,7 @@ Major corporations have spent millions on marketing and publicity campaigns to m
 
 There has recently been talk about how much social media will affect SEO. While there is no evidence that social media links to your site lead to any boost in ranking, neither is there any proof to the contrary. This means you can consider social media links a plus when building any marketing campaign but not a guarantee.
 
-We have only scratched the surface for search engine optimization. In the next blog post I will discuss what aspects of SEO the site owner can control. I highly recommend reading the Beginner’s Guide To SEO (2) at moz.com for a more complete understanding of the basic principles of SEO. Take note that I have given two links to moz.com here, thus increasing their ranking for search results.
+We have only scratched the surface for search engine optimization. In the <a href="{{ site.baseurl }}{% post_url 2017-01-23-the-truth-about-seo-part-2 %}">next blog post</a> I will discuss what aspects of SEO the site owner can control. I highly recommend reading the Beginner’s Guide To SEO (2) at moz.com for a more complete understanding of the basic principles of SEO. Take note that I have given two links to moz.com here, thus increasing their ranking for search results.
 
 (1) <a href="https://moz.com/learn/seo/backlinks" target="_blank">Backlinks Information<a>
 
